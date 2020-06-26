@@ -1,0 +1,68 @@
+print ("Hi, Welcome to my US states and Capitals App")
+m = {
+                    "Washington":"Olympia","Oregon":"Salem",
+                    "California":"Sacramento","Ohio":"Columbus",
+                    "Nebraska":"Lincoln","Colorado":"Denver",
+                    "Michigan":"Lansing","Massachusetts":"Boston",
+                    "Florida":"Tallahassee","Texas":"Austin",
+                    "Oklahoma":"Oklahoma City","Hawaii":"Honolulu",
+                    "Alaska":"Juneau","Utah":"Salt Lake City",
+                    "New Mexico":"Santa Fe","North Dakota":"Bismarck",
+                    "South Dakota":"Pierre","West Virginia":"Charleston",
+                    "Virginia":"Richmond","New Jersey":"Trenton",
+                    "Minnesota":"Saint Paul","Illinois":"Springfield",
+                    "Indiana":"Indianapolis","Kentucky":"Frankfort",
+                    "Tennessee":"Nashville","Georgia":"Atlanta",
+                    "Alabama":"Montgomery","Mississippi":"Jackson",
+                    "North Carolina":"Raleigh","South Carolina":"Columbia",
+                    "Maine":"Augusta","Vermont":"Montpelier",
+                    "New Hampshire":"Concord","Connecticut":"Hartford",
+                    "Rhode Island":"Providence","Wyoming":"Cheyenne",
+                    "Montana":"Helena","Kansas":"Topeka",
+                    "Iowa":"Des Moines","Pennsylvania":"Harrisburg",
+                    "Maryland":"Annapolis","Missouri":"Jefferson City",
+                    "Arizona":"Phoenix","Nevada":"Carson City",
+                    "New York":"Albany","Wisconsin":"Madison",
+                    "Delaware":"Dover","Idaho":"Boise",
+                    "Arkansas":"Little Rock","Louisiana":"Baton Rouge"
+    }
+n = {
+                    "WA":"Olympia","OR":"Salem",
+                    "CA":"Sacramento","OH":"Columbus",
+                    "NE":"Lincoln","CO":"Denver",
+                    "MI":"Lansing","MA":"Boston",
+                    "FL":"Tallahassee","TX":"Austin",
+                    "OK":"Oklahoma City","HI":"Honolulu",
+                    "AK":"Juneau","UT":"Salt Lake City",
+                    "NM":"Santa Fe","ND":"Bismarck",
+                    "SD":"Pierre","WV":"Charleston",
+                    "VA":"Richmond","NJ":"Trenton",
+                    "MN":"Saint Paul","IL":"Springfield",
+                    "IN":"Indianapolis","KY":"Frankfort",
+                    "TN":"Nashville","GA":"Atlanta",
+                    "AL":"Montgomery","MS":"Jackson",
+                    "NC":"Raleigh","SC":"Columbia",
+                    "ME":"Augusta","VT":"Montpelier",
+                    "NH":"Concord","CT":"Hartford",
+                    "RI":"Providence","WY":"Cheyenne",
+                    "MT":"Helena","KS":"Topeka",
+                    "IA":"Des Moines","PA":"Harrisburg",
+                    "MD":"Annapolis","MO":"Jefferson City",
+                    "AZ":"Phoenix","NV":"Carson City",
+                    "NY":"Albany","WI":"Madison",
+                    "DE":"Dover","ID":"Boise",
+                    "AR":"Little Rock", "LO":"Baton Rouge"
+    }
+
+while 1:
+    question = input("State (or q to quit): ").strip()
+
+    if question == "q".strip().title():
+        print("Thank you for using this app. See you again.")
+        break
+    elif question in n:
+        print("The capital of ", question, "is", n[question] +".")
+    elif question in m:
+        print("The capital of ", question, "is", m[question] + ".")
+    else:
+        print("Sorry, Not Found. Please Try Again")
