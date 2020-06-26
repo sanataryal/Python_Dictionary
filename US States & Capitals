@@ -27,37 +27,37 @@ m = {
                     "Arkansas":"Little Rock","Louisiana":"Baton Rouge"
     }
 n = {
-                    "WA":"Olympia","OR":"Salem",
-                    "CA":"Sacramento","OH":"Columbus",
-                    "NE":"Lincoln","CO":"Denver",
-                    "MI":"Lansing","MA":"Boston",
-                    "FL":"Tallahassee","TX":"Austin",
-                    "OK":"Oklahoma City","HI":"Honolulu",
-                    "AK":"Juneau","UT":"Salt Lake City",
-                    "NM":"Santa Fe","ND":"Bismarck",
-                    "SD":"Pierre","WV":"Charleston",
-                    "VA":"Richmond","NJ":"Trenton",
-                    "MN":"Saint Paul","IL":"Springfield",
-                    "IN":"Indianapolis","KY":"Frankfort",
-                    "TN":"Nashville","GA":"Atlanta",
-                    "AL":"Montgomery","MS":"Jackson",
-                    "NC":"Raleigh","SC":"Columbia",
-                    "ME":"Augusta","VT":"Montpelier",
-                    "NH":"Concord","CT":"Hartford",
-                    "RI":"Providence","WY":"Cheyenne",
-                    "MT":"Helena","KS":"Topeka",
-                    "IA":"Des Moines","PA":"Harrisburg",
-                    "MD":"Annapolis","MO":"Jefferson City",
-                    "AZ":"Phoenix","NV":"Carson City",
-                    "NY":"Albany","WI":"Madison",
-                    "DE":"Dover","ID":"Boise",
-                    "AR":"Little Rock", "LO":"Baton Rouge"
+                    "Wa":"Olympia","Or":"Salem",
+                    "Ca":"Sacramento","Oh":"Columbus",
+                    "Ne":"Lincoln","Co":"Denver",
+                    "Mi":"Lansing","Ma":"Boston",
+                    "Fl":"Tallahassee","Tx":"Austin",
+                    "Ok":"Oklahoma City","Hi":"Honolulu",
+                    "Ak":"Juneau","Ut":"Salt Lake City",
+                    "Nm":"Santa Fe","Nd":"Bismarck",
+                    "Sd":"Pierre","Wv":"Charleston",
+                    "Va":"Richmond","Na":"Trenton",
+                    "Mn":"Saint Paul","Il":"Springfield",
+                    "In":"Indianapolis","Ky":"Frankfort",
+                    "Tn":"Nashville","Ga":"Atlanta",
+                    "Al":"Montgomery","Ms":"Jackson",
+                    "Nc":"Raleigh","Sc":"Columbia",
+                    "Me":"Augusta","Vt":"Montpelier",
+                    "Nh":"Concord","Ct":"Hartford",
+                    "Ri":"Providence","Wy":"Cheyenne",
+                    "Mt":"Helena","Ks":"Topeka",
+                    "Ia":"Des Moines","Pa":"Harrisburg",
+                    "Md":"Annapolis","Mo":"Jefferson City",
+                    "Az":"Phoenix","Nv":"Carson City",
+                    "Ny":"Albany","Wi":"Madison",
+                    "De":"Dover","Id":"Boise",
+                    "Ar":"Little Rock", "Lo":"Baton Rouge"
     }
 
 while 1:
-    question = input("State (or q to quit): ").strip()
+    question = input("State (or q to quit): ").strip().title()
 
-    if question == "q".strip().title():
+    if question == "q".strip():
         print("Thank you for using this app. See you again.")
         break
     elif question in n:
