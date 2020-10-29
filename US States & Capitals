@@ -1,4 +1,5 @@
-print ("Hi, Welcome to my US states and Capitals App")
+name = input("Please enter your name: ")
+print ("Hi" ,name, "Welcome to my US states and Capitals App")
 m = {
                     "WASHINGTON":"Olympia","OREGON":"Salem",
                     "CALIFORNIA":"Sacramento","OHIO":"Columbus",
@@ -55,7 +56,7 @@ n = {
     }
 
 while 1:
-    question = input("State (or q to quit): ").strip().capitalize()
+    question = input("State (or q to quit): ").strip().upper()
 
 
     if question == "q".format().strip():
