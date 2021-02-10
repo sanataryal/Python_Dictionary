@@ -1,5 +1,6 @@
 name = input("Please enter your name: ")
-print (f"Hi {name}, Welcome to my US states and Capitals App")
+state = input("Which state you are in: )
+print (f"Hi {name}, Welcome to my US states and Capitals App. Wow you live in {state}, Great.")
 m = {
                     "WASHINGTON":"Olympia","OREGON":"Salem",
                     "CALIFORNIA":"Sacramento","OHIO":"Columbus",
